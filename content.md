@@ -22,10 +22,10 @@ layout: false
 
 # Why do I need git?
 
-- Code History
-- Reverting changes
-- Collaborating with colleagues
-- Code review
+- _Code History_: no more `script_final.R`, `script_finalDEF.R`, `script_finalDEFV2.R`
+- _Reverting changes_: Rolling back to an earlier, working version
+- Collaborating with colleagues: sharing code without difficult merges and usb-sticks
+- Code review: check each other's code to guarantee code quality
 
 ---
 
