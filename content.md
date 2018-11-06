@@ -57,7 +57,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Repositories
 
 .center[
-  ![Git flow](images/git_flow.png)
+  ![Git flow][git-flow-image]
 ]
 
 - (cloud hosted) remote location containing your code.
@@ -68,7 +68,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Clone
 
 .center[
-  ![Git flow](images/git-flow.png)
+  ![Git flow][git-flow-image]
 ]
 
 - Downloading a remote repository to your local machine.
@@ -78,7 +78,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Pull
 
 .center[
-  ![Git flow](images/git-flow.png)
+  ![Git flow][git-flow-image]
 ]
 
 - Updating your local clone with the latest version from the git provider.
@@ -89,7 +89,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Add / stage
 
 .center[
-  ![Git flow](images/git-flow.png)
+  ![Git flow][git-flow-image]
 ]
 
 - Selecting files / changes that you would like to store in git.
@@ -100,7 +100,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Commit
 
 .center[
-  ![Git flow](images/git-flow.png)
+  ![Git flow][git-flow-image]
 ]
 
 - With a commit you can combine all the staged files into a single update.
@@ -111,7 +111,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Push
 
 .center[
-  ![Git flow](images/git-flow.png)
+  ![Git flow][git-flow-image]
 ]
 
 - With a push you upload your commits to the git provider (in our case GitHub)
@@ -269,4 +269,6 @@ print(2 + 2)
 
 ---
 
+
+[git-flow-image]: images/git_flow.png
 
