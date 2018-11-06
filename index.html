@@ -139,8 +139,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&amp;delayStartupUntil=configured" type="text/javascript"></script>
   <script type="text/javascript">
   var slideshow = remark.create({
+    ratio: '16:9',
     countIncrementalSlides: false,
-    sourceUrl: 'content.md' 
+    sourceUrl: 'content.md',
+    navigation: {
+      scroll: false
+    }
   });
 
   // Setup MathJax
