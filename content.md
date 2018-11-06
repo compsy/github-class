@@ -3,7 +3,7 @@ layout: true
 class: center, middle, inverse
 
 ---
-# GitHub Workshop
+# Git(Hub) Workshop
 
 ### Ando Emerencia and Frank Blaauw
 #### University of Groningen,<br/>Developmental Psychology / Computer Science
@@ -22,10 +22,17 @@ layout: false
 
 # Why do I need git?
 
-- _Code History_: no more `script_final.R`, `script_finalDEF.R`, `script_finalDEFV2.R`
-- _Reverting changes_: Rolling back to an earlier, working version
-- Collaborating with colleagues: sharing code without difficult merges and usb-sticks
-- Code review: check each other's code to guarantee code quality
+- Code History 
+  - _no more `script_final.R`, `script_finalDEF.R`, `script_finalDEFV2.R`_
+
+- Reverting changes 
+  - _rolling back to an earlier, working version_
+
+- Collaborating with colleagues
+  - _sharing code without difficult merges and usb-sticks_
+
+- Code review 
+  - _check each other's code to guarantee code quality_
 
 ---
 
@@ -33,24 +40,45 @@ layout: false
 
 - Version Control System
 - Managing plain text files (R syntax, Matlab files, source code, txt files)
-
+  
+  
 # For what is git not useful?
 
 - Managing microsoft office documents
 - Storing data
 
 ???
-Git is a version management system, which means that it can keep track of earlier versions of your source code / documents.
+- Git is a version management system, which means that it can keep track of earlier versions of your source code / documents.
+- With plain text files we mean anything that is readable from notepad (generally source code or simple files). Not binaries.
 
 ---
 
 # The git basics
 
-- Clone
-- Pull
-- Add
-- Commit
-- Push
+.pull-left[
+  ## Discussed now
+  - Repositories
+  - Clone
+  - Pull
+  - Add
+  - Commit
+  - Push
+  - Branches and pull-requests
+]
+
+--
+
+.pull-right[
+  ## Not discussed now
+  - Checkouts
+  - Rebasing
+  - Cherry-picking
+  - Tags
+  - Forks
+]
+
+???
+Each of these will be covered in more detail. The items on the right are added for reference only.
 
 ---
 
@@ -60,8 +88,11 @@ Git is a version management system, which means that it can keep track of earlie
   ![Git flow][git-flow-image]
 ]
 
-- (cloud hosted) remote location containing your code.
-- GitHub is a provider of hosted git repositories.
+- (Cloud hosted) remote location containing your code
+- GitHub is a provider of hosted git repositories
+- Repository can be either _private_ (just for you) or _public_ (for everyone)
+
+???
 
 ---
 
@@ -71,8 +102,8 @@ Git is a version management system, which means that it can keep track of earlie
   ![Git flow][git-flow-image]
 ]
 
-- Downloading a remote repository to your local machine.
-- Only do this once the first time.
+- Downloading a remote repository to your local machine
+- Only needed once per repository, per machine you need to access your code on
 ---
 
 # Pull
@@ -81,8 +112,8 @@ Git is a version management system, which means that it can keep track of earlie
   ![Git flow][git-flow-image]
 ]
 
-- Updating your local clone with the latest version from the git provider.
-- Do this every time you want to _pull in_ changes from the remote repository.
+- Updating your local working copy with the latest version from the git provider
+- Do this every time you want to _pull in_ changes from the remote repository
 
 ---
 
@@ -92,8 +123,11 @@ Git is a version management system, which means that it can keep track of earlie
   ![Git flow][git-flow-image]
 ]
 
-- Selecting files / changes that you would like to store in git.
-- You will have to do this every time you want to store changes or files.
+- Selecting files / changes that you would like to store in git
+- You will have to do this every time you want to store changes or files
+
+???
+Git follows multiple steps in order to sync your code to a remote repository. It starts with actually selecting which files you'd like to synchronize.
 
 ---
 
@@ -103,8 +137,11 @@ Git is a version management system, which means that it can keep track of earlie
   ![Git flow][git-flow-image]
 ]
 
-- With a commit you can combine all the staged files into a single update.
-- A commit comes with a commit message. In these messages you can write what you changed and why you changed something.
+- With a commit you can combine all the staged files into a single update
+- A commit comes with a commit message. In these messages you can write what you changed and why you changed something
+
+???
+With a git commit you actually combine your changes into a single sort of package, to which you provide a useful name.
 
 ---
 
@@ -116,6 +153,9 @@ Git is a version management system, which means that it can keep track of earlie
 
 - With a push you upload your commits to the git provider (in our case GitHub)
 - You have to push in order to share your commits with everyone.
+
+???
+Finally you push your local commits to a remote repository, to store them or to share them with the world.
 
 ---
 
