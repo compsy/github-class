@@ -57,7 +57,7 @@ Git is a version management system, which means that it can keep track of earlie
 # Repositories
 
 .center[
-  ![Git flow](images/git-flow.png)
+  ![Git flow](images/git_flow.png)
 ]
 
 - (cloud hosted) remote location containing your code.
