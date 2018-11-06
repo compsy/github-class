@@ -261,14 +261,12 @@ print(2 + 2)
 - Username and password worden bewaard ie voor de session, dus dat is wel hip
 
 ---
-
-# Advanced/Next steps
-- Revert ik heb per ongeluk iets aanpast en het moet weer terug naar hoe het was.
-- History is voor te kijken hoe zag iets er eerder uit
-- Ignore knop is voor bestanden die je niet online wilt zetten
-
+name: inverse
+layout: true
+class: center, middle, inverse
 ---
-
+# Questions? 
 
 [git-flow-image]: images/git_flow.png
+
 
